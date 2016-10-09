@@ -1,0 +1,20 @@
+
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Contact</h2>
+      <p>Please email support@computersolutions.fake</p>
+      <h3>Locations</h3>
+
+        <div ng-repeat="local in localizacao">
+
+              <ul class="local">
+                  <li>{{local.nome}}</li>
+                  <li>{{local.cidade}} {{local.estado}} {{local.cep}}</li>
+                  <li>{{local.telefone}}</li>
+              </ul>
+
+        </div>
+
+    </div>
+  </div>

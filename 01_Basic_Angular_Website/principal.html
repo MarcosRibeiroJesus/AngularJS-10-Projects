@@ -1,0 +1,23 @@
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="img/computer-icon.png">
+        </div>
+        <div class="col-md-8">
+          <h1>Computer Solutions</h1>
+          <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+      <div ng-repeat="servico in servicos">
+          <div class="col-lg-4">
+            <h2>{{servico.nome}}</h2>
+            <p>{{servico.descricao}}</p>
+          </div>
+      </div>
+  </div>

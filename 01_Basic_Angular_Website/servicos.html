@@ -1,0 +1,19 @@
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Serviços</h2>
+        <div ng-repeat="servico in servicos">
+
+              <div class="row servico">
+                  <div class="col-md-2">
+                      <img ng-src="img/{{servico.image}}">
+                  </div>
+                  <div class="col-md-10">
+                      <h3>{{servico.nome}}</h3>
+                      <p>{{servico.descricao}}</p>
+                      <a href="contato.html" class="btn btn-primary">Entre em contato</a>
+                  </div>
+              </div>
+
+        </div>
+    </div>
+  </div>

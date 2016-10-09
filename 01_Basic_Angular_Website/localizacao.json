@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome": "Lynn Location",
+        "cidade": "Lynn",
+        "estado": "MA",
+        "cep": "01982",
+        "telefone": "567-444-3334"
+    },
+    {
+        "id": 2,
+        "nome": "Amesbury Location",
+        "cidade": "Amesbury",
+        "estado": "MA",
+        "cep": "01182",
+        "telefone": "443-232-9998"
+    },
+    {
+        "id": 3,
+        "nome": "Boston Location",
+        "cidade": "Boston",
+        "estado": "MA",
+        "cep": "01182",
+        "telefone": "552-323-6534"
+    }
+]
